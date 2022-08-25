@@ -30,7 +30,7 @@
             <ul class="connection">
                 <li class="connection-link"> 
                     <a href="mailto:info@devstudio.com" class="link link-nav">
-                        <svg class="icon" width="16" height="10">
+                        <svg class="icon" width="16" height="12">
                             <use href="./images/icons.svg#icon-mail"></use>
                         </svg>info@devstudio.com 
                     </a> 
@@ -351,9 +351,23 @@
                     </a>
                 </li>
             </ul>
-            </div>
-            
-        </div>        
+            </div> 
+            <div class="footer-email">
+                <p class="footer-email-title">
+                    ПШДПИШІТЬСЯ НА РОЗСИЛКУ
+                </p>
+                <input type="email"
+                    class="footer-email-item"
+                    name="footer-email"
+                    placeholder="E-mail"
+                />
+                <button class="button footer-email-btn" tipe="button">Підписатися
+                    <svg class="icon" width="24" height="24">
+                        <use href="./images/icons.svg#icon-icon-send"></use>
+                    </svg>
+                </button>
+            </div>           
+        </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
         <div class="modal">
@@ -362,6 +376,69 @@
                     <use href="./images/icons.svg#icon-close"></use>
                 </svg>
             </button>
+            <p class="model-title">Залиште свої дані, ми вам передзвонимо</p>
+            <form class="modal-form">
+                <div class="modal-area">
+                    <label for="user-name" class="modal-label">І'мя</label>
+                    <div class="input-wrap">
+                        <input type="text" 
+                            class="modal-input" 
+                            name="user-name" 
+                            placeholder=""
+                            id="user-name"
+                        />
+                        <svg class="input-icon" widht="18" height="18">
+                        <use href="./images/icons.svg#icon-person"></use>
+                    </svg>
+                    </div>                    
+                </div>               
+                <div class="modal-area">
+                    <label for="phone" class="modal-label">Телефон</label>
+                    <div class="input-wrap">
+                        <input type="tel" 
+                            class="modal-input" 
+                            name="phone" 
+                            placeholder=""
+                            id="phone"
+                        />
+                        <svg class="input-icon" widht="18" height="18">
+                        <use href="./images/icons.svg#icon-tphone"></use>
+                    </svg>
+                    </div>                       
+                </div>                
+                <div class="modal-area">
+                    <label for="email" class="modal-label">Пошта</label>
+                    <div class="input-wrap">
+                        <input type="email" 
+                            class="modal-input" 
+                            name="email" 
+                            placeholder=""
+                            id="email"
+                        />
+                        <svg class="input-icon" widht="18" height="18">
+                        <use href="./images/icons.svg#icon-email"></use>
+                    </svg>
+                    </div>                    
+                </div>                
+                <div class="modal-area">
+                    <label for="comment" class="modal-label">Коментар</label>
+                    <textarea name="comment" 
+                        id="comment" 
+                        class="modal-comment" 
+                        placeholder="Введіть текст"
+                    ></textarea>
+                </div> 
+                <div class="modal-check">
+                    <input type="checkbox" 
+                        class="modal-checkbox visually-hidden" 
+                        name="agreement"                     
+                        id="agreement"
+                        checked 
+                    />
+                    <label for="agreement" class="agreement-text">Погоджуюся з розсилкою та приймаю <span class="agreement-link">Умови договору</span></label>                    
+                </div>                     
+                <button type="submit" class="submit-btn button">Відправити</button>
+            </form>
         </div>        
     </div> 
     <script src="./js/modal.js"></script>    
