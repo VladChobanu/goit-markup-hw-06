@@ -785,6 +785,7 @@ h2 {
   color: #757575;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 .agreement-text::before {
   content: "";
@@ -792,6 +793,7 @@ h2 {
   height: 15px;
   border: 2px solid black;
   border-radius: 3px;
+  margin-right: 8px;
 }
 .modal-checkbox:checked + .agreement-text::before {
   background-color: var(--accent-color);
@@ -857,6 +859,7 @@ h2 {
   letter-spacing: 0.06em;
   color: #ffffff;
   margin: 0px;
+  cursor: pointer;
 }
 .footer-email-btn .icon {
   fill: #ffffff;
