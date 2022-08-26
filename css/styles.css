@@ -705,7 +705,7 @@ h2 {
   fill: #000000;
 }
 .modal-btn:hover .icon,
-.modal-btn:focus .icon{
+.modal-btn:focus .icon {
   fill: var(--accent-color);
 }
 .model-title {
@@ -738,10 +738,10 @@ h2 {
   fill: var(--accent-color);
 }
 
-.modal-input:hover{
+.modal-input:hover {
   cursor: pointer;
 }
-.input-icon:hover{
+.input-icon:hover {
   cursor: pointer;
 }
 .modal-input {
@@ -841,8 +841,6 @@ h2 {
   margin-top: 30px;
   width: 200px;
 }
-
-
 .footer-email {
   margin-left: 93px;
   padding-top: 12px;
@@ -866,7 +864,7 @@ h2 {
   border-radius: 4px;
   margin-right: 12px;
 }
-.mail-btn{
+.mail-btn {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -886,7 +884,6 @@ h2 {
 .footer-email-btn .icon {
   fill: #ffffff;
   margin-left: 10px;
-
 }
 .backdrop.is-hidden {
   opacity: o;
