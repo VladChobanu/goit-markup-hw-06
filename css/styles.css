@@ -699,6 +699,7 @@ h2 {
   cursor: pointer;
   background-color: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: none;
 }
 .modal-btn .icon {
   fill: #000000;
@@ -734,6 +735,7 @@ h2 {
 }
 .modal-comment:focus {
   outline-color: var(--accent-color);
+  fill: var(--accent-color);
 }
 
 .modal-input:hover{
